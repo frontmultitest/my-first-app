@@ -1,0 +1,8 @@
+type: target-group
+name: targetGroup
+operator: or
+conditions:
+  - operator: in-array
+    property: organization
+    operand:
+      - hq
